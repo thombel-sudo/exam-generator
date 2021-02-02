@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="370.0" prefWidth="504.0" style="-fx-background-color: #AF9454;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examgenerator.ShowAllQuestionsController">
+   <children>
+      <TextArea fx:id="txtQuestions" editable="false" layoutX="27.0" layoutY="92.0" prefHeight="256.0" prefWidth="451.0" wrapText="true" />
+      <ComboBox fx:id="cbThemes" layoutX="27.0" layoutY="34.0" onAction="#cbThemesClick" prefHeight="25.0" prefWidth="174.0" promptText="Оберіть тему ..." style="-fx-background-color: #B7A676; -fx-background-radius: 5 5 5 5;" />
+   </children>
+</AnchorPane>
